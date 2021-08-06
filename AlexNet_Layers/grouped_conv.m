@@ -5,7 +5,7 @@ function y = grouped_conv(x,w)
 
 yrow = ((xrow-wrow)/1)+1; % outpot row (1 stride)
 ycol = ((xcol-wcol)/1)+1;
-shift_row =((xrow-wrow)+1); % KAYDIRINCA G?D?LECEK SON DEGER= 217
+shift_row =((xrow-wrow)+1); %217
 shift_col =((xcol-wcol)+1); %217
 
 y=single(zeros(yrow, ycol)); % output
