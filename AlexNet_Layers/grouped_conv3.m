@@ -5,7 +5,7 @@ function y = grouped_conv3(x,w)
 
 yrow = ((xrow-wrow)/1)+1; % outpot row (1 stride)
 ycol = ((xcol-wcol)/1)+1;
-shift_row =((xrow-wrow)+1); % KAYDIRINCA GiDiLECEK SON DEGER= 25
+shift_row =((xrow-wrow)+1); % 25
 shift_col =((xcol-wcol)+1); % 25
 
 y=single(zeros(yrow, ycol)); % output
