@@ -5,7 +5,7 @@ function y = conv3(x,w)
 
 yrow = ((xrow-wrow)/1)+1; % outpot row (1 stride)
 ycol = ((xcol-wcol)/1)+1;
-shitf_row =((xrow-wrow)+1); % ne kadar kaydýracaðým
+shitf_row =((xrow-wrow)+1); 
 shift_col =((xcol-wcol)+1); 
 
 y=(zeros(yrow, ycol)); % output
